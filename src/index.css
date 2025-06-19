@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  color-scheme: black;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
@@ -38,6 +38,7 @@ a {
   text-decoration: none;
 }
 
+
 ul,
 ol {
   padding: 0;
@@ -64,7 +65,8 @@ h1 {
   color: #5E5E5E;
 }
 
-form, .ContactList {
+form,
+.ContactList {
   background: #D9D9D9;
   padding: 20px;
   border-radius: 15px;
@@ -82,15 +84,16 @@ label {
   font-size: 16px;
   margin-bottom: 6px;
   margin-right: 20px;
-} 
+}
 
 div {
-  min-width: 500px;
+  min-width: 400px;
   margin-top: 5px;
   margin-bottom: 20px;
 }
 
-input, button {
+input,
+button {
   border: none;
   border-radius: 10px;
   outline: none;
